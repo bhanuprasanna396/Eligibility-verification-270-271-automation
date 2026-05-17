@@ -310,11 +310,6 @@ pytest tests/ -v --cov=app --cov-report=term-missing
 
 ---
 
-## Going to Production
-
-The only change required is swapping the mock clearinghouse client for a real one. The `ClearinghouseClientBase` interface in `clearinghouse/base.py` is designed for this — implement it against Availity, Change Healthcare, or Waystar and point the worker at the new client. Everything else — encryption, audit logging, retries, gap detection — carries over unchanged.
-
----
 
 ## Roadmap
 
