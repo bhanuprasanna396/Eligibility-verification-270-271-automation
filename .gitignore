@@ -1,0 +1,30 @@
+.env
+.env.*
+!.env.example
+
+# Python cache/build
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor/OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Local agent/runtime metadata
+.codex/
+.agents/
