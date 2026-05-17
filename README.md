@@ -5,7 +5,7 @@ Staff click one button per appointment — the system builds a real EDI 270 inqu
 
 ---
 
-## Getting Started (Download and Run in 10 Minutes)
+## Getting Started 
 
 > These steps work on Windows (WSL), macOS, and Linux.
 
